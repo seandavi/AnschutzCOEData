@@ -18,3 +18,4 @@ Imports: readxl,
     ggmap,
     tigris
 RoxygenNote: 7.3.2
+URL: https://seandavi.github.io/AnschutzCOEData/
