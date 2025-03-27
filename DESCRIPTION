@@ -16,6 +16,7 @@ Imports: readxl,
     dplyr,
     ggplot2,
     ggmap,
-    tigris
+    tigris,
+    ggpattern
 RoxygenNote: 7.3.2
 URL: https://seandavi.github.io/AnschutzCOEData/
