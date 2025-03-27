@@ -4,7 +4,7 @@
 \alias{fit_ccsp_by_county}
 \title{Load the FIT and CCSP data by county}
 \usage{
-fit_ccsp_by_county(county)
+fit_ccsp_by_county()
 }
 \description{
 Load the FIT and CCSP data by county

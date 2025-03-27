@@ -9,7 +9,7 @@
 #' summary(d)
 #'
 #' @export
-fit_ccsp_by_county <- function(county) {
+fit_ccsp_by_county <- function() {
   # Load the FIT data
   fit_data <- readxl::read_excel(
     system.file("extdata/fit_and_ccsp_data_by_county.xlsx", package='AnschutzCOEData')

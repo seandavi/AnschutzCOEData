@@ -12,7 +12,9 @@ map_fit_and_ccsp_activity <- function() {
   # Load Colorado counties shapefile from the US Census Bureau (or another source)
   # Here we use the tigris package to get county boundaries
   options(tigris_use_cache = TRUE)
-  co_counties <- tigris::counties(state = "CO", class = "sf")
+  co_counties <- suppressMessages(
+    tigris::counties(state = "CO", class = "sf")
+  )
 
   # Ensure consistent naming
   co_counties$county <- tolower(co_counties$NAME)
